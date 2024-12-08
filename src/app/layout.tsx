@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${eb_garamond.variable} antialiased`}
+        className={`${inter.className} ${eb_garamond.variable} flex min-h-screen flex-col text-zinc-800 antialiased`}
       >
         {children}
       </body>
